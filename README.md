@@ -46,6 +46,10 @@ cd target
 ```
 Run the solution file
 
+```
+java -jar solution.jar <farm-id>
+```
+
 Output: The program will print the best tower ID for the given farm, or an error message if the farm ID is not provided or invalid.
 
 ![image](https://github.com/jxav22/HalterSkillsAssesssmentJasonXavier/assets/94942712/81f3c6c6-e55b-43b2-be71-eed0ed808bdb)
