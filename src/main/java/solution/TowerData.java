@@ -10,7 +10,7 @@ public class TowerData {
     private int totalRssi = 0;
     private int dataPointsStored = 0;
 
-    TowerData(String towerID) {
+    public TowerData(String towerID) {
         this.towerID = towerID;
     }
 
