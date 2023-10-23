@@ -52,13 +52,13 @@ java -jar solution.jar <farm-id>
 
 Output: The program will print the best tower ID for the given farm, or an error message if the farm ID is not provided or invalid.
 
-![image](https://github.com/jxav22/HalterSkillsAssesssmentJasonXavier/assets/94942712/81f3c6c6-e55b-43b2-be71-eed0ed808bdb)
+![image](https://github.com/jxav22/HalterSkillsAssesssmentJasonXavier/assets/94942712/d8578632-dfac-46f0-ae81-3824ecc37528)
 
 ## Alternative to doing all that
 
 Download and run the precompiled `solution.jar` file, under releases
 
-![image](https://github.com/jxav22/HalterSkillsAssesssmentJasonXavier/assets/94942712/8d0fb30e-3964-48ce-8b1b-0c4d3a99bb66)
+![image](https://github.com/jxav22/HalterSkillsAssesssmentJasonXavier/assets/94942712/73b0c597-ca97-4c51-abe2-cc02777b142e)
 
 ```
 java -jar solution.jar <farm-id>
@@ -67,9 +67,10 @@ java -jar solution.jar <farm-id>
 ## Notable issue
 
 It seems like 2 of the files require some kind of authorization
-![image](https://github.com/jxav22/HalterSkillsAssesssmentJasonXavier/assets/94942712/3a89bca4-23d3-453f-b134-8bbf591a0d1b)
+![image](https://github.com/jxav22/HalterSkillsAssesssmentJasonXavier/assets/94942712/adde6a31-d63e-4c45-b259-3b1eb01cee59)
 
 How it's handled
-![image](https://github.com/jxav22/HalterSkillsAssesssmentJasonXavier/assets/94942712/6aface54-1908-4143-842c-eb78998b415f)
+![image](https://github.com/jxav22/HalterSkillsAssesssmentJasonXavier/assets/94942712/b5896591-e14f-40d7-a6ee-32b8f5d94b7e)
+
 
 
