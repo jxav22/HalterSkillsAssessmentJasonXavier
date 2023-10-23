@@ -15,7 +15,7 @@ import java.net.URL;
  */
 public class DataExtractor {
     private final String farmID;
-    Hashtable<String, TowerData> data;
+    private final Hashtable<String, TowerData> data;
 
     public DataExtractor(String farmID){
         this.farmID = farmID;
