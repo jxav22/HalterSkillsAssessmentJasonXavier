@@ -1,4 +1,4 @@
-package org.junit.solution;
+package org.junit;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -9,7 +9,6 @@ import solution.TowerData;
 
 import java.util.Hashtable;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertSame;
 
 public class DataProcessorTest {
