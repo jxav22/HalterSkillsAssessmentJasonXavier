@@ -11,14 +11,14 @@ import org.json.JSONArray;
 
 /**
  * A helper class, designed to extract a list of urls from a http endpoint.
- * (Provided that the http endpoint returns a list of urls, using Content-Type: application/json.)
+ * (Provided that the http endpoint returns a list of urls, of Content-Type: application/json.)
  */
 public class LinkExtractor {
     public LinkExtractor(){}
 
     /**
      * Extracts a list of urls from a http endpoint.
-     * (Provided that the http endpoint returns a list of urls, using Content-Type: application/json)
+     * (Provided that the http endpoint returns a list of urls, of Content-Type: application/json)
      * @param url The http endpoint
      * @return The list of urls, located at that endpoint
      */
