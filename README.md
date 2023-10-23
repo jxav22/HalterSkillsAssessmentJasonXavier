@@ -21,7 +21,7 @@ package containing the rest of the project files
 ### Prerequisites
 #### Install a Java Development Kit (JDK)
 
-You can download it from Oracle's official website or use a package manager appropriate for your operating system.
+You can download it from Oracle's official website or through using a package manager appropriate for your operating system.
 
 #### Install maven
 
@@ -30,7 +30,7 @@ https://maven.apache.org/install.html
 ### Instructions
 Clone the Repo
 ```
-git clone https://github.com/jxav22/HalterSkillsAssesssmentJasonXavier.git
+git clone https://github.com/jxav22/HalterSkillsAssessmentJasonXavier.git
 ```
 Navigate to the Project Directory
 ```
