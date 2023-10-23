@@ -44,7 +44,7 @@ public class DataExtractor {
 
     private void recordData(String farmID, String towerID, int rssi){
         if (farmID.equals(this.farmID)){
-            this.data.putIfAbsent(towerID, new TowerData());
+            this.data.putIfAbsent(towerID, new TowerData(towerID));
 
             TowerData towerData = this.data.get(towerID);
             towerData.addRssi(rssi);
