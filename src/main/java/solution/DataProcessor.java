@@ -2,13 +2,22 @@ package solution;
 
 import java.util.*;
 
+/**
+ * A helper class, designed to determine the tower with
+ * the best rssi from a collection of tower data
+ */
 public class DataProcessor {
-    private Hashtable<String, TowerData> data;
+    private final Hashtable<String, TowerData> data;
 
     public DataProcessor(Hashtable<String, TowerData> data) {
         this.data = data;
     }
 
+    /**
+     * Determines the tower with the best rssi
+     * Where the best is defined as having the highest average (mean) rssi
+     * @return The tower ID of the best tower
+     */
     public String getTowerWithBestRssi() {
         List<TowerData> towerData = new ArrayList<>(this.data.values());
         TowerData towerWithBestRssi = Collections.max(towerData, new TowerDataComparator());

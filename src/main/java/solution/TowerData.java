@@ -1,5 +1,9 @@
 package solution;
 
+/**
+ * A data class, for storing tower data
+ * The goal was to effectively store the average (mean) rssi for a particular tower
+ */
 public class TowerData {
     private final String towerID;
 
