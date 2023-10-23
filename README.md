@@ -23,7 +23,7 @@ package containing the rest of the project files
 
 You can download it from Oracle's official website or use a package manager appropriate for your operating system.
 
-#### Install maven (a build tool)
+#### Install maven
 
 https://maven.apache.org/install.html
 
